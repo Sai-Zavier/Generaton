@@ -1,0 +1,129 @@
+:root {
+    --light-blue-color: paleturquoise;
+    --light-green-color: lime;
+    --blue-color: aqua;
+    --purple-color: rgb(144 , 0 , 255);
+    --white: rgb(222 , 222 , 222);
+    --pure-white: white;
+    --black: #323334;
+    --coral: coral;
+    --main-title: Cooper;
+    --title-font: ChunkFive;
+    --para-font: Cascadia Code;
+    --other-para: mono-serif;
+}
+
+* {
+    /* text-align: center; */
+    font-family: Cascadia Code;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--light-blue-color);
+    margin: 0;
+}
+
+.top-bar {
+    position: fixed;
+    width: 100%;
+    height: 12.5%;
+    background-color: var(--black);
+    opacity: 0.97;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: -44.25rem;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-logo img {
+    width: 150px;
+    height: 90px;
+    top: 0;
+    left: 0;
+}
+.nav {
+    position: fixed;
+    /* top: 0;
+    left: 0; */
+    margin-left: 50rem;
+    display: block;
+}
+.nav a {
+    padding: 25px;
+    font-family: var(--para-font);
+    color: var(--pure-white);
+    transition: 0.45s;
+}
+.nav a:hover {
+    color: var(--purple-color);
+}
+
+footer {
+    background-color: var(--light-blue-color);
+    background-size: cover;
+    width: 100%;
+}
+
+.help {
+    background-color: var(--black);
+    width: 100%;
+    height: 10rem;
+    margin-top: 15.25rem;
+}
+
+.help .container {
+    color: var(--black);
+    background-color: var(--blue-color);
+    font-family: var(--main-title);
+    position: relative;
+    top: -60px;
+    padding: 50px 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.help h1 {
+    margin: 0;
+}
+
+.help a {
+    font-family: var(--para-font);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--pure-white);
+    background-color: var(--coral);
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.help a:hover {
+color: var(--pure-white);
+background-color: var(--purple-color);
+}
+
+.help .container {
+    flex-direction: column;
+}
+.help h1,h2 {
+    font-family: var(--para-font);
+    text-align: center;
+}
+
+
+
+

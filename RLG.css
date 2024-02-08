@@ -1,0 +1,76 @@
+:root {
+    --light-blue-color: paleturquoise;
+    --light-green-color: lime;
+    --blue-color: aqua;
+    --purple-color: rgb(144 , 0 , 255);
+    --white: rgb(222 , 222 , 222);
+    --pure-white: white;
+    --black: #323334;
+    --coral: coral;
+    --main-title: Cooper;
+    --title-font: ChunkFive;
+    --para-font: Cascadia Code;
+    --other-para: mono-serif;
+}
+
+body {
+    background-color: rgb(190, 218, 218);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: var(--para-font);
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+p {
+    font-family: var(--para-font);
+    display: inline-block;
+    box-shadow: 0 0 5px var(--coral);
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 17.5px;
+    border-radius: 3.75px;
+}
+
+#container {
+    margin-top: 15rem;
+    width: 50rem;
+    background-color: var(--white);
+    padding: 17.75px;
+    border-radius: 7.5px;
+    text-align: center;
+    box-shadow: 0 0 10px var(--black);
+}
+
+button {
+    padding: 10px 15px;
+    background-color: var(--purple-color);
+    color: var(--pure-white);
+    font-size: 17.5px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    border-radius: 3.75px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+button:hover {
+    background-color: var(--blue-color);
+    color: var(--black);
+}
+input {
+    padding: 10px 15px;
+    font-size: 19.25px;
+    border: 2px solid var(--black);
+    border-radius: 3.75px;
+    margin-top: 30px;
+    background: transparent;
+}

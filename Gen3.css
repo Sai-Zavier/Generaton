@@ -1,0 +1,68 @@
+:root {
+    --light-blue-color: paleturquoise;
+    --light-green-color: lime;
+    --blue-color: aqua;
+    --purple-color: rgb(144 , 0 , 255);
+    --white: rgb(222 , 222 , 222);
+    --coral: coral;
+    --pure-white: white;
+    --black: #323334;
+    --main-title: Cooper;
+    --title-font: ChunkFive;
+    --para-font: Cascadia Code;
+    --other-para: mono-serif;
+}
+
+.help {
+    background-color: var(--black);
+    height: 10rem;
+}
+
+.help .container {
+    color: var(--black);
+    background-color: var(--blue-color);
+    position: relative;
+    top: -60px;
+    padding: 50px 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.help h1 {
+    margin: 0;
+}
+
+.help a {
+    font-family: var(--para-font);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--pure-white);
+    background-color: var(--coral);
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.help a:hover {
+    color: var(--pure-white);
+    background-color: var(--purple-color);
+}
+
+.help .container {
+    flex-direction: column;
+}
+.help h1,h2 {
+    font-family: var(--para-font);
+    text-align: center;
+}
+
+footer {
+    background-color: var(--light-blue-color);
+    /* background-size: cover; */
+    width: 100%;
+}
+
+

@@ -1,0 +1,28 @@
+:root {
+    --light-blue-color: paleturquoise;
+    --light-green-color: lime;
+    --blue-color: aqua;
+    --purple-color: rgb(144 , 0 , 255);
+    --white: rgb(222 , 222 , 222);
+    --coral: coral;
+    --pure-white: white;
+    --black: #323334;
+    --pure-black: black;
+    --main-title: Cooper;
+    --title-font: ChunkFive;
+    --para-font: Cascadia Code;
+    --other-para: mono-serif;
+}
+
+.main-bar {
+    padding-top: 7.5rem;
+}
+.po {
+    transform: translateY(25%);
+}
+#he {
+    transform: translateY(300%);
+}
+
+
+

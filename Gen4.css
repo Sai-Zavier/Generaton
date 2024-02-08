@@ -1,0 +1,100 @@
+:root {
+    --light-blue-color: paleturquoise;
+    --light-green-color: lime;
+    --blue-color: aqua;
+    --purple-color: rgb(144 , 0 , 255);
+    --white: rgb(222 , 222 , 222);
+    --pure-white: white;
+    --black: #323334;
+    --fd-c: #CA8DFD;
+    --fdd-c: #B042FF;
+    --main-title: Cooper;
+    --title-font: ChunkFive;
+    --para-font: Cascadia Code;
+    --other-para: mono-serif;
+}
+
+
+.wow {
+    margin-top: 4rem;
+    margin-left: 37.5rem;
+}
+.idk,
+.s {
+    aspect-ratio: 16 / 9;
+}
+.idk,
+.big {
+    width: 30vmin;
+}
+.s {
+    /* background-color: rgb(255, 255, 255); */
+    position: absolute;
+    transition: transform 800ms cubic-bezier(.05,.43,.25,.95);
+}
+.big {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1vmin;
+    cursor: pointer;
+}
+.small {
+    width: 10rem;
+    border-radius: 1vmin;
+    transform: translate(100%, 200%);
+}
+.big img {
+    border-radius: 1vmin;
+    width: 30rem;
+}
+.small img {
+    border-radius: 1vmin;
+    width: 10rem;
+}
+
+
+.big:nth-child(2) {
+    background-color: var(--fdd-c);
+    transform: translateY(5%) rotate(-2deg);
+}
+.big:nth-child(5) {
+    background-color: var(--pure-white);
+    transform: translateX(5%) rotate(-2deg);
+}
+.big:nth-child(3) {
+    transform: translate(5%, 45%) rotate(-92deg);
+    height: 17.5rem;
+}
+.big:nth-child(8) {
+    background-color: var(--fd-c);
+    transform: translateY(5%) rotate(-2deg);
+}
+
+
+
+.idk:hover > .big:nth-child(2) {
+    transform: translateY(10%) translateX(-110%) rotate(-3deg);
+}
+.idk:hover > .big:nth-child(5) {
+    transform: translateY(5%) translateX(-105%) rotate(-3deg);
+}
+.idk:hover > .big:nth-child(3) {
+    transform: translateY(40%) translateX(30%) rotate(-3deg);
+}
+.idk:hover > .big:nth-child(8) {
+    transform: translateY(10%) translateX(-115%) rotate(-3deg);
+}
+
+.idk:hover > .small:nth-child(1) {
+    transform: translate(300%, -30%) rotate(-10deg);
+}
+.idk:hover > .small:nth-child(4) {
+    transform: translate(100%, -30%) rotate(-10deg);
+}
+.idk:hover > .small:nth-child(6) {
+    transform: translate(100%, 500%) rotate(10deg);
+}
+.idk:hover > .small:nth-child(7) {
+    transform: translate(300%, 500%) rotate(10deg);
+}
+

@@ -1,0 +1,114 @@
+:root {
+    --light-blue-color: paleturquoise;
+    --light-green-color: lime;
+    --blue-color: aqua;
+    --purple-color: rgb(144 , 0 , 255);
+    --white: rgb(222 , 222 , 222);
+    --coral: coral;
+    --pure-white: white;
+    --black: #323334;
+    --main-title: Cooper;
+    --title-font: ChunkFive;
+    --para-font: Cascadia Code;
+    --other-para: mono-serif;
+}
+
+.tee {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 7.5rem;
+    width: 100%;
+    height: 55rem;
+}
+.line {
+    font-family: var(--other-para);
+    font-size: 5rem;
+}
+
+.item-group {
+    display: flex;
+}
+.item {
+    /* width: 50rem; */
+    position: relative;
+}
+
+.gp {
+    display: flex;
+}
+
+.gp-item {
+    width: 29.5%;
+    padding: 10px;
+    position: relative;
+    margin-left: 2.75rem;
+}
+
+.gp-item img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: var(--purple-color) 0 0 10px;
+}
+
+.generators {
+    padding-top: 7.25rem;
+    padding-bottom: 10rem;
+}
+.generators h1 {
+    font-family: var(--main-title);
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 2.25rem;
+}
+
+.gp-gp h3 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.gp-item-dec {
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    opacity: 0;
+    background-color: var(--light-blue-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.gp-item-dec h4 {
+    margin-top: 0;
+    font-family: var(--title-font);
+    color: var(--black);
+    font-size: 1.5rem;
+}
+.gp-item-dec a {
+    margin-top: 0;
+    font-family: var(--title-font);
+    color: var(--pure-white);
+    font-size: 1.5rem;
+}
+
+.gp-item-dec a {
+    background-color: var(--purple-color);
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.gp-item:hover .gp-item-dec {
+    visibility: visible;
+    opacity: 0.9;
+}
+

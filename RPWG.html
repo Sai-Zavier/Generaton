@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Passwords Generator</title>
+    <!-- CSS -->
+    <link href="RPWG.css" rel="stylesheet">
+    <link href="RPWG2.css" rel="stylesheet">
+    <link href="RPWG3.css" rel="stylesheet">
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon_io/">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="top-logo">
+            <img src="../assets/images2/Generaton.png">
+        </div>
+        <div class="nav">
+            <a href="../Home.html" target="_self">Home</a>
+            <a href="../Gen.html" target="_self">Generators</a>
+            <a href="#others" target="_self">Others</a>
+            <a href="#help" target="_self">Feedbacks</a>
+            <a href="#Soc" target="_self">Social Medias</a>
+            <a href="" target="_self">Settings</a>
+        </div>
+    </div>
+    <section class="sec">
+        <div class="container">
+            <h1>Password Generator</h1>
+            <div class="form">
+                <label for="length">Password Length:</label>
+                    <input type="number" id="length" min="4" max="20" value="10">
+                <label for="uppercase">Include Uppercase Letters:</label>
+                    <input type="checkbox" id="uppercase" checked>
+                <label for="lowercase">Include Lowercase Letters:</label>
+                    <input type="checkbox" id="lowercase" checked>
+                <label for="numbers">Include Numbers:</label>
+                    <input type="checkbox" id="numbers" checked>
+                <label for="symbols">Include Symbols:</label>
+                    <input type="checkbox" id="symbols" checked>
+                <button id="generate">Generate Password</button>
+            </div>
+            <div class="result">
+                <input type="text" id="password" readonly>
+            </div>
+        </div>
+    </section>
+    <section class="help" id="help">
+        <div class="container">
+            <h1>Give a Feedbacks here</h1>
+            <h2>I like to receive your feedbacks</h2>
+            <a href="" target="_blank">Feedback</a>
+        </div>
+    </section>
+</body>
+<script src="RPWG.js"></script>
+</html>

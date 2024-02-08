@@ -1,0 +1,26 @@
+:root {
+    --light-blue-color: paleturquoise;
+    --light-green-color: lime;
+    --blue-color: aqua;
+    --purple-color: rgb(144 , 0 , 255);
+    --white: rgb(222 , 222 , 222);
+    --pure-white: white;
+    --black: #323334;
+    --coral: coral;
+    --main-title: Cooper;
+    --title-font: ChunkFive;
+    --para-font: Cascadia Code;
+    --other-para: mono-serif;
+}
+
+* {
+    text-align: center;
+    align-items: center;
+}
+body {
+    background-color: var(--light-blue-color);
+}
+h1 {
+    font-family: var(--para-font);
+    font-size: 25rem;
+}

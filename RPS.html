@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Letters Generator</title>
+    <!-- CSS -->
+    <link href="RPS.css" rel="stylesheet">
+    <link href="RPS2.css" rel="stylesheet">
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicon_io/">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="top-logo">
+            <img src="../assets/images2/Generaton.png">
+        </div>
+        <div class="nav">
+            <a href="../Home.html" target="_self">Home</a>
+            <a href="../Gen.html" target="_self">Generators</a>
+            <a href="#others" target="_self">Others</a>
+            <a href="#help" target="_self">Feedbacks</a>
+            <a href="" target="_self">Social Medias</a>
+            <a href="" target="_self">Settings</a>
+        </div>
+    </div>
+    <section class="game-board">
+        <div class="player-box-player">
+            <h1 class="player-name">Player</h1>
+            <div class="rock-paper-scissors-box">
+                <img src="" alt="" srcset="" id="player-choice">
+            </div>
+            <div class="score-box">
+                <h2 id="player-total-score">0</h2>
+            </div>
+        </div>
+        <p id="result">Welcome !</p>
+        <div class="player-box-computer">
+            <h1 class="player-name">Computer</h1>
+            <div class="rock-paper-scissors-box">
+                <img src="" alt="" srcset="" id="computer-choice">
+            </div>
+            <div class="score-box">
+                <h2 id="computer-total-score">0</h2>
+            </div>
+        </div>
+    </section>
+    <div class="play-button-row">
+        <button class="play-button" id="Rock" onclick="playGame(this.id)">Rock</button>
+        <button class="play-button" id="Paper" onclick="playGame(this.id)">Paper</button>
+        <button class="play-button" id="Scissors" onclick="playGame(this.id)">Scissors</button>
+        <button class="reset-button" id="resetBtn" onclick="resetGame()">Reset</button>
+    </div>
+    <section class="help" id="help">
+        <div class="container">
+            <h1>Give a Feedbacks here</h1>
+            <h2>I like to receive your feedbacks</h2>
+            <a href="" target="_blank">Feedback</a>
+        </div>
+    </section>
+</body>
+<script src="RPS.js"></script>
+</html>

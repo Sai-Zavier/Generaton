@@ -1,0 +1,96 @@
+:root {
+    --light-blue-color: paleturquoise;
+    --light-green-color: lime;
+    --blue-color: aqua;
+    --purple-color: rgb(144 , 0 , 255);
+    --white: rgb(222 , 222 , 222);
+    --pure-white: white;
+    --black: #323334;
+    --coral: coral;
+    --main-title: Cooper;
+    --title-font: ChunkFive;
+    --para-font: Cascadia Code;
+    --other-para: mono-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--para-font);
+}
+
+.sec .container {
+    width: 80%;
+    max-width: 600px;
+    margin-left: 31.75rem;
+    padding-top: 2.5rem;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 10rem;
+    text-align: center;
+    color: var(--black);
+}
+
+.form {
+    margin-top: 2.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: right;
+    padding: 10px;
+    border: 2px solid var(--black);
+    border-radius: 10px;
+}
+
+.form label {
+    width: 50%;
+    margin: 5px;
+}
+
+.form input {
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid var(--black);
+    border-radius: 5px;
+}
+
+.form input[type="number"] {
+    width: 20%;
+}
+
+.form button {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    background-color: var(--purple-color);
+    color: var(--pure-white);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.form button:hover {
+    background-color: var(--blue-color);
+    color: var(--black);
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid var(--black);
+    border-radius: 10px;
+}
+
+.result input {
+    width: 80%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid var(--black);
+    border-radius: 5px;
+}
